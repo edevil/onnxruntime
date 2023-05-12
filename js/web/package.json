@@ -75,5 +75,12 @@
     "./webgpu": "./dist/ort.webgpu.min.js"
   },
   "types": "./types.d.ts",
-  "description": "A Javascript library for running ONNX models on browsers"
+  "description": "A Javascript library for running ONNX models on browsers",
+  "overrides": {
+    "protobufjs": {
+      ".": "https://github.com/edevil/protobuf.js.git#10d430fa21a4c38d24d3f1c4fa4fe384acfc7a0e",
+      "@protobufjs/inquire": "https://gitpkg.now.sh/edevil/protobuf.js/lib/inquire?10d430fa21a4c38d24d3f1c4fa4fe384acfc7a0e"
+    },
+    "@protobufjs/inquire": "https://gitpkg.now.sh/edevil/protobuf.js/lib/inquire?10d430fa21a4c38d24d3f1c4fa4fe384acfc7a0e"
+  }
 }
